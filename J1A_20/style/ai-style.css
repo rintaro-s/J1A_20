@@ -1,0 +1,73 @@
+#image-box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    position:absolute;	
+		bottom:-150px;
+		right:30px;
+  }
+  
+  #image {
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    bottom:-100px;
+		right:30px;
+  }
+
+  #balloon {
+    position: fixed; 
+    top: 70%;
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+    background-color: #fff; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    display: none; 
+  }
+  
+  
+  #input-box {
+    display: none;
+    position: absolute;
+    bottom:-150px;
+	right:0px;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #input-text {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #submit-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  #toukou {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    background: #27acd9;
+    color: #fff;
+    border-radius: 100vh;
+    transition: 0.5s;
+    writing-mode: horizontal-tb;
+  }
+  #toukou:hover {
+    color: #27acd9;
+    background: #fff;
+  }
